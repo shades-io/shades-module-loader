@@ -39,6 +39,7 @@
  */
 
 const jsonfile = require('jsonfile');
+const commandLineArgs = require('command-line-args');
 
 const definitions = [
     { name: 'store', alias: 's', type: String },

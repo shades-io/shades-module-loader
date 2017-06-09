@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/shades-io/shades-module-loader#readme",
   "dependencies": {
+    "command-line-args": "^4.0.6",
     "jsonfile": "^3.0.0"
   }
 }
