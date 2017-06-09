@@ -1,0 +1,25 @@
+{
+  "name": "shades-module-loader",
+  "version": "0.1.0",
+  "description": "loads configured shades modules",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shades-io/shades-module-loader.git"
+  },
+  "keywords": [
+    "loader",
+    "shades"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shades-io/shades-module-loader/issues"
+  },
+  "homepage": "https://github.com/shades-io/shades-module-loader#readme",
+  "dependencies": {
+    "jsonfile": "^3.0.0"
+  }
+}
