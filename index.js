@@ -95,6 +95,6 @@ const plugins = pluginNames.reduce((acc, plugin) => {
     const pConfig = config.plugins[plugin] || {};
     acc[plugin] = require(`shades-plugin-${plugin}`)(pConfig);
     return acc;
-});
+}, []);
 
 module.exports = { store, broker, projections, plugins, config };
