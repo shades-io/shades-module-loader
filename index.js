@@ -45,7 +45,7 @@ const definitions = [
     { name: 'store', alias: 's', type: String },
     { name: 'broker', alias: 'b', type: String },
     { name: 'projection', alias: 'p', type: String, multiple: true },
-    { name: 'config', alias: 'c', type: String, multiple: true },
+    { name: 'config', alias: 'c', type: String },
     { name: 'plugin', type: String, multiple: true }
 ];
 const opts = commandLineArgs(definitions);
